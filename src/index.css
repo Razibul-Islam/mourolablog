@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Font Family */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+
+.heroBg {
+  background-image: url("./assets/heroBg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.primaryBtn {
+  @apply text-base font-semibold border border-primary bg-primary text-white px-4 py-2 rounded hover:bg-transparent hover:text-primary hover:border hover:border-primary transition;
+}
+
